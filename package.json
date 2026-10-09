@@ -1,0 +1,46 @@
+{
+  "name": "lavender-parchment-theme",
+  "displayName": "Lavender Parchment Theme",
+  "description": "Quiet lavender, warm parchment and muted beige in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "lavender",
+    "parchment",
+    "vintage",
+    "muted"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#302A34",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/lavender-parchment-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavender Parchment Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/lavender-parchment-light-color-theme.json"
+      },
+      {
+        "label": "Lavender Parchment Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lavender-parchment-dark-color-theme.json"
+      }
+    ]
+  }
+}
